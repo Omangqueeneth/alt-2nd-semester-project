@@ -26,7 +26,7 @@ const RepoList = () => {
   useEffect(() => {
     axios
       .get(
-        `https://api.github.com/users/danielsalumu/repos?page=${page}&per_page=9`
+        `https://api.github.com/users/Omangqueeneth/repos?page=${page}&per_page=9`
       )
       .then((response) => {
         setRepos(response.data);
